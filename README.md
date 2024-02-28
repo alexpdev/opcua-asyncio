@@ -39,7 +39,7 @@ We assume that you already have some experience with Python, the asyncio module,
 
 The `Client` class provides a high level API for connecting to OPC UA servers, session management and access to basic
 address space services.
-The client can be used as a context manager. The client will then automatically connect and disconnect withing the `with`syntax.
+The client can be used as a context manager. The client will then automatically connect and disconnect using the `with` syntax.
 
 ```python
 from asyncua import Client
